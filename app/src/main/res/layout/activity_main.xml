@@ -104,6 +104,7 @@
         android:gravity="center"
         android:hint="@string/homepage_username"
         android:minHeight="48dp"
+        android:textColorHint="@color/content"
         app:layout_constraintEnd_toStartOf="@+id/homepage_content_guideline_right"
         app:layout_constraintStart_toStartOf="@+id/homepage_content_guideline_left"
         app:layout_constraintTop_toBottomOf="@+id/homepage_content_text_view"
@@ -122,6 +123,8 @@
         android:hint="@string/homepage_password"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColor="@color/content"
+        android:textColorHint="@color/content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/homepage_content_guideline_right"
         app:layout_constraintHorizontal_bias="0.503"
@@ -133,6 +136,7 @@
 
     <Button
         android:id="@+id/homepage_login_button"
+        android:fontFamily="@font/source_sans_pro_semibold"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -140,6 +144,7 @@
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/purple"
         android:text="@string/homepage_login_button"
+        android:onClick="onLoginClick"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/hompage_password_input"
@@ -150,6 +155,7 @@
 
     <Button
         android:id="@+id/homepage_create_account_button"
+        android:fontFamily="@font/source_sans_pro_semibold"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -157,6 +163,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:text="CREATE ACCOUNT"
         android:textColor="@color/purple"
+        android:onClick="onCreateAccountClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/homepage_login_button"
         app:layout_constraintHorizontal_bias="0.0"
@@ -165,7 +172,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/homepage_triangle"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:adjustViewBounds="true"

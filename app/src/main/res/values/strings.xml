@@ -1,17 +1,16 @@
 <resources>
+
     <string name="app_name">GeoCache</string>
     <string name="homepage_title">Geocache Finding</string>
     <string name="hompage_content">Hunt for geocaches in your local area</string>
     <string name="homepage_login_button">Login</string>
-    <string name="homepage_password">password</string>
+    <string name="homepage_password">Password</string>
     <string name="homepage_username">Username</string>
-    <string name="title_activity_create_account">activity_create_account</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="create_username">Username</string>
+    <string name="create_content">Create your account</string>
+    <string name="create_name">Name</string>
+    <string name="create_email">Email</string>
+    <string name="create_password">Password</string>
+    <string name="create_confirm_password">Confirm password</string>
+    <string name="create_account_button">CREATE ACCOUNT</string>
 </resources>

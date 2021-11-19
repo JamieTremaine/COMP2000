@@ -1,25 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_create_account">
+    tools:context=".CreateAccount">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/create_content_text"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:textColor="@color/content"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.GeoCache.AppBarOverlay">
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/create_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.GeoCache.PopupOverlay" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/create_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:inputType="textPersonName"
+        android:hint="@string/create_username"
+        android:textColor="@color/content"
+        android:textColorHint="@color/content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_content_text"
+        tools:ignore="TouchTargetSizeCheck" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/create_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:hint="@string/create_name"
+        android:textColor="@color/content"
+        android:textColorHint="@color/content"
+        app:layout_constraintEnd_toEndOf="@+id/create_username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_username"
+        tools:ignore="TouchTargetSizeCheck" />
 
-    <include layout="@layout/content_activity_create_account" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/create_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:hint="@string/create_email"
+        android:textColor="@color/content"
+        android:textColorHint="@color/content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_name"
+        tools:ignore="TouchTargetSizeCheck" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <EditText
+        android:id="@+id/create_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:hint="@string/create_password"
+        android:inputType="textPassword"
+        android:textColor="@color/content"
+        android:textColorHint="@color/content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_email"
+        tools:ignore="TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/create_password_confirm"
+        android:textColor="@color/content"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/create_confirm_password"
+        android:textColorHint="@color/content"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_password"
+        tools:ignore="TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/create_button_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/purple"
+        android:fontFamily="@font/source_sans_pro_semibold"
+        android:text="@string/create_account_button"
+        app:cornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_password_confirm" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/triangle_corner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
