@@ -13,4 +13,5 @@
     <string name="create_password">Password</string>
     <string name="create_confirm_password">Confirm password</string>
     <string name="create_account_button">CREATE ACCOUNT</string>
+    <string name="MAPBOX_KEY">pk.eyJ1IjoiamFtaWV0cmVtYWluZSIsImEiOiJja3c2cjlpa3Iwc21uMnBxbHozOTduZXh1In0.rLAnWnK60dznTn-KCDAlDQ</string>
 </resources>
