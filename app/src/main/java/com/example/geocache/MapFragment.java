@@ -1,36 +1,40 @@
 package com.example.geocache;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
-
-import com.google.android.material.appbar.AppBarLayout;
 import com.mapbox.mapboxsdk.Mapbox;
 import com.mapbox.mapboxsdk.maps.MapView;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 import com.mapbox.mapboxsdk.maps.Style;
 
-
-public class MainPage extends AppCompatActivity{
+public class MapFragment extends Fragment {
 
     private MapView mView;
 
+    public MapFragment() {
+        // Required empty public constructor
+    }
+
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
 
-       /* Mapbox.getInstance(this, getString(R.string.mapbox_access_token));*/
-        setContentView(R.layout.activity_main_page);
+        Mapbox.getInstance(getContext(), getString(R.string.mapbox_access_token));
 
-      /*  mView = (MapView) findViewById(R.id.mapView);
+        View view = inflater.inflate(R.layout.fragment_map, container, false);
+
+        mView = (MapView) view.findViewById(R.id.mapView);
         mView.onCreate(savedInstanceState);
-
         mView.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(@NonNull MapboxMap mapboxMap) {
@@ -41,11 +45,12 @@ public class MainPage extends AppCompatActivity{
 
                 });
             }
-        });*/
+        });
 
+        return view;
     }
 
-    /*@Override
+    @Override
     public void onStart(){
         super.onStart();
         mView.onStart();
@@ -56,9 +61,8 @@ public class MainPage extends AppCompatActivity{
         super.onResume();
         mView.onResume();
     }
-
     @Override
-    public void onPause(){
+    public void onPause() {
         super.onPause();
         mView.onPause();
     }
@@ -85,13 +89,5 @@ public class MainPage extends AppCompatActivity{
     public void onDestroy(){
         super.onDestroy();
         mView.onDestroy();
-    }
-     */
-
-
-
-    public void onMenuClick(View view){
-        DrawerLayout layout = findViewById(R.id.main_layout);
-        layout.open();
     }
 }

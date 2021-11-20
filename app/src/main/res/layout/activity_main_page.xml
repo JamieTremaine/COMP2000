@@ -30,7 +30,15 @@
                 android:elevation="0dp"
                 android:onClick="onMenuClick"/>
 
+
         </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/main_fragment"
+            android:name="com.example.geocache.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
 
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
@@ -43,6 +51,8 @@
         app:headerLayout="@layout/main_menu_header"
         app:menu="@menu/main_menu"
         android:layout_gravity="start" >
+
+
 
     </com.google.android.material.navigation.NavigationView>
 
