@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapbox.plugin:maps-compass:10.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fe5ee1144f6ba666265f9db8b97f3e19/transformed/jetified-maps-compass-10.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fe5ee1144f6ba666265f9db8b97f3e19/transformed/jetified-maps-compass-10.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fe5ee1144f6ba666265f9db8b97f3e19/transformed/jetified-maps-compass-10.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-compass/10.0.0/813fbe352b9140bf3e2b88ab8c4be66c6c70483d/maps-compass-10.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-compass/10.0.0/b0e5a774d6f3fc5dbb7255fd2919fd4df0c5e056/maps-compass-10.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapbox.navigation:ui-voice:2.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bffdb15f332ad5ddfecebbb68b0b27e3/transformed/jetified-ui-voice-2.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bffdb15f332ad5ddfecebbb68b0b27e3/transformed/jetified-ui-voice-2.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bffdb15f332ad5ddfecebbb68b0b27e3/transformed/jetified-ui-voice-2.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.navigation/ui-voice/2.0.2/1286826aec8a4ad430bbb3a49c3bb5cb2dd2269f/ui-voice-2.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.navigation/ui-voice/2.0.2/4691b2f8591f73f497e7b5380efa1326d42b1d4f/ui-voice-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapbox.navigation:ui-speedlimit:2.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bf4264cfd3f03ddf452bf9ceca76a07e/transformed/jetified-ui-speedlimit-2.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf4264cfd3f03ddf452bf9ceca76a07e/transformed/jetified-ui-speedlimit-2.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf4264cfd3f03ddf452bf9ceca76a07e/transformed/jetified-ui-speedlimit-2.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.navigation/ui-speedlimit/2.0.2/23a5a54aad81d860bc2fd49daebeab43457d4031/ui-speedlimit-2.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.navigation/ui-speedlimit/2.0.2/4330398955739d3c3ddbcf476bee1790bf8bede6/ui-speedlimit-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

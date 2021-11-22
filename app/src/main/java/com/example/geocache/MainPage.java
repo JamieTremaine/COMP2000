@@ -99,11 +99,13 @@ public class MainPage extends AppCompatActivity{
 
     @Override
     public void onBackPressed() {
+        sView.setVisibility(View.VISIBLE);
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
         }
+
     }
 
 

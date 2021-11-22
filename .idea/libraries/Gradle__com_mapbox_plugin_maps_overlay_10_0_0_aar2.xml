@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapbox.plugin:maps-overlay:10.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1927aad7806b2e853cf8ae8d5cc755fd/transformed/jetified-maps-overlay-10.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1927aad7806b2e853cf8ae8d5cc755fd/transformed/jetified-maps-overlay-10.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1927aad7806b2e853cf8ae8d5cc755fd/transformed/jetified-maps-overlay-10.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-overlay/10.0.0/adeeb81c7a3182ecbe82f54ab7dc80612d454cbc/maps-overlay-10.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-overlay/10.0.0/f3acd968a6c606fb949fa1597b079122997a199f/maps-overlay-10.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
