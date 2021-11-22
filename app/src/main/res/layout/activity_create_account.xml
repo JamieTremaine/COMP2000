@@ -109,6 +109,7 @@
         android:fontFamily="@font/source_sans_pro_semibold"
         android:text="@string/create_account_button"
         app:cornerRadius="20dp"
+        android:onClick="onCreateButtonClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/create_password_confirm" />
 

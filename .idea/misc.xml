@@ -6,22 +6,30 @@
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/drawable/activity_corner_triangle.xml" value="0.22135416666666666" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/drawable/corner_triangle.xml" value="0.3828125" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/drawable/homepage_login_button.xml" value="0.3828125" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.22135416666666666" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/font/source_sans_pro_semibold.xml" value="0.23541666666666666" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout-v26/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/activity_create_account.xml" value="0.33" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/activity_main_page.xml" value="0.25" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/activity_main_page.xml" value="0.22" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/content_activity_create_account.xml" value="0.20520833333333333" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/fragment_blank.xml" value="0.33" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/fragment_first.xml" value="0.2694746376811594" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/fragment_map.xml" value="0.33" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/fragment_map_fragmant.xml" value="0.20520833333333333" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/fragment_search_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/fragment_settingfragment.xml" value="0.20572916666666666" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/homepage_slider.xml" value="0.2957427536231884" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/main_header.xml" value="0.24094202898550723" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/main_menu_header.xml" value="0.33" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/layout/main_nav_header.xml" value="0.25" />
-        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/menu/main_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/menu/main_search_bar.xml" value="0.20520833333333333" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/menu/mainpage_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
         <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
+        <entry key="..\:/University/Comp Sci/Stage2/CW/app/src/main/res/xml/root_preferences.xml" value="0.33" />
       </map>
     </option>
   </component>
